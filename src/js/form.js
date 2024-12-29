@@ -5,6 +5,7 @@ const openBtns = document.querySelectorAll('.fly-button'),
 openBtns.forEach(openBtn => {
     openBtn.addEventListener('click', function() {        
             contactForm.classList.add('form-show');
+            tgWrap.classList.add('form-wrap-show');
         }
     )});
 
