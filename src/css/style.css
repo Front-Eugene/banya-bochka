@@ -463,7 +463,6 @@ input:checked + .radio {
     flex-direction: column;
     padding: 20px;
     border-radius: 20px;
-    color: #000;
     background: #fff;
     z-index: 999;
 }
