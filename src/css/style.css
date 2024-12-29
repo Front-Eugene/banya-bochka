@@ -420,9 +420,13 @@ input {
 .form-wrap {
     width: 100dvw;
     height: 100dvh;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-around;
+}
+
+.form-wrap-show {
+    display: flex;
 }
 
 form {

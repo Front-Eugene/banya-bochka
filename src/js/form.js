@@ -1,5 +1,6 @@
 const openBtns = document.querySelectorAll('.fly-button'),
       contactForm = document.querySelector('.tg-form');
+      tgWrap = document.querySelector('.form-wrap');
 
 openBtns.forEach(openBtn => {
     openBtn.addEventListener('click', function() {        
