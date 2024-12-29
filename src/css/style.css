@@ -427,6 +427,11 @@ input {
 
 .form-wrap-show {
     display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    background: #fff;
 }
 
 form {
