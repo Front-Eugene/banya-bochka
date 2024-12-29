@@ -523,7 +523,7 @@ input:checked + .radio {
     }
 
     .screen-wrap {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .text-item {
@@ -554,14 +554,6 @@ input:checked + .radio {
         order: 1;
 
         width: 100%;
-    }
-
-    .ul-item {
-        order: 3;
-
-        width: 100%;
-        padding: 0;
-        margin: 25px 0;
     }
 
     .ul-item button {
